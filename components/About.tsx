@@ -47,7 +47,7 @@ function About({ }: Props) {
                 <p className='text-base font-mono'>
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore, itaque, nostrum fugiat quisquam hic exercitationem necessitatibus magnam dignissimos consectetur maxime sed unde delectus! Sapiente, ipsam enim nihil quam sed corrupti beatae ea reiciendis vitae ipsa numquam pariatur debitis quisquam quaerat nulla quas amet, praesentium a minima, quod adipisci odit iusto impedit!
                     <br /><br />
-                    Quidem, doloribus asperiores et cum blanditiis repellat debitis! Eligendi facere fugit in ratione quasi quidem iure omnis nulla sapiente qui explicabo esse debitis deleniti facilis ex nostrum nobis, harum excepturi culpa incidunt ea aliquam! Incidunt quo aliquid nostrum consequatur ipsa fuga provident excepturi? Cum aut temporibus veritatis dicta ullam ✨
+                    Currently based in Paris and can't wait to jump right into it ✨
                 </p>
             </div>
 

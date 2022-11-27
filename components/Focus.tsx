@@ -29,7 +29,10 @@ export default function Focus({ }: Props) {
                         <button className='focus_btn'>Projects</button>
                     </Link>
                     <Link href="#hobbies">
-                        <button className='focus_btn'>Hobbies</button>
+                        <button className='focus_btn'>Skills</button>
+                    </Link>
+                    <Link href="#resume">
+                        <button className='focus_btn'>Resume</button>
                     </Link>
                     <Link href="#contact">
                         <button className='focus_btn'>Contact</button>

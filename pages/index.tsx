@@ -4,6 +4,7 @@ import Focus from '../components/Focus';
 import About from '../components/About';
 import Projects from '../components/Projects';
 import Skills from '../components/Skills';
+import Education from '../components/Education';
 
 export default function Home() {
   return (
@@ -24,6 +25,11 @@ export default function Home() {
           <About/>
       </section>
 
+      { /* ================ Education ================ */ }
+      <section id='education' className='snap-center'>
+          <Education />
+      </section>
+
       { /* ================ Projects ================ */ }
       <section id='experience' className='snap-center'>
           <Projects />
@@ -33,8 +39,6 @@ export default function Home() {
       <section id='skills' className='snap-center'>
           <Skills />
       </section>
-
-      { /* ================ Experience ================ */ }
 
       { /* ================ Hobbies ================ */ }
 
