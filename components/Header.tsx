@@ -2,6 +2,7 @@ import React from 'react';
 import { SocialIcon } from 'react-social-icons';
 import { motion } from 'framer-motion';
 import { BsMailbox } from "react-icons/bs";
+import Link from 'next/link';
 
 type Props = {}
 
@@ -46,6 +47,7 @@ function Header({ }: Props) {
                     bgColor='transparent' />
             </motion.div>
 
+            <Link href="#contact">
             <motion.div 
                 initial={{
                     x: 500,
@@ -64,6 +66,7 @@ function Header({ }: Props) {
                 <BsMailbox className='text-3xl mr-2' />
                 <p className='text-pink-200 uppercase hidden md:inline-flex text-sm font-mono'>Get in touch</p>
             </motion.div>
+            </Link>
         </header>
     );
 }

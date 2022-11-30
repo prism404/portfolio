@@ -6,11 +6,14 @@ import Projects from '../components/Projects';
 import Skills from '../components/Skills';
 import Education from '../components/Education';
 import ContactMe from '../components/ContactMe';
+import Link from 'next/link';
+import Image from 'next/image';
+import OakTree from '../components/img/oak-tree.png';
 
 
 export default function Home() {
   return (
-    <div className="bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory overflow-scroll z-0">
+    <div className="bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory overflow-scroll z-0 scrollbar scrollbar-track-gray-500/10 scrollbar-thumb-pink-200/80">
       <Head>
         <title>Portfolio</title>
       </Head>
@@ -45,9 +48,17 @@ export default function Home() {
       { /* ================ Hobbies ================ */ }
 
       { /* ================ Contact Me ================ */ }
-      <section id='Contact' className='snap-center'>
+      <section id='contact' className='snap-center'>
           <ContactMe />
       </section>
+
+      <Link href="#focus">
+        <footer className='sticky bottom-5 w-full cursor-pointer'>
+          <div className='flex items-center justify-center'>
+            <Image src={OakTree} alt="" className='h-10 w-10 rounded full filter grayscale hover:grayscale-0 cursor-pointer' />
+          </div>
+        </footer>
+      </Link>
 
     </div>
   )

@@ -27,7 +27,7 @@ function Skill({ directionLeft }: Props) {
             <Image src={mongodb_icon} alt=""/>
         </div>
 
-        <div className='absolute opacity-0 group-hover:opacity-80 transition duration-300 ease-in-out group-hover:bg-pink-200 h-12 w-12 md:w-22 md:h-22 xl:w-31 xl:h-31 rounded-full z-0'>
+        <div className='absolute opacity-0 group-hover:opacity-80 transition duration-300 ease-in-out group-hover:bg-pink-200 h-2/3 w-2/3 md:h-24 md:w-24 xl:w-31 xl:h-31 rounded-full z-0'>
             <div className='flex items-center justify-center h-full'>
                 <p className='text-2xl'>💗</p>
             </div>
