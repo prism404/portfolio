@@ -31,7 +31,7 @@ export default function Focus({ }: Props) {
                     <Link href="#skills">
                         <button className='focus_btn'>Skills</button>
                     </Link>
-                    <Link href="#resume">
+                    <Link href="https://drive.google.com/file/d/1A5LQIsofZptm2B5xC9vU4H_jQsHRt8Fv/view?usp=sharing">
                         <button className='focus_btn'>Resume</button>
                     </Link>
                     <Link href="#contact">
