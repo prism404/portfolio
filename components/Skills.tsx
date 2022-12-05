@@ -29,13 +29,6 @@ function Skills({ }: Props) {
                 <Skill />
                 <Skill />
                 <Skill />
-                <Skill />
-                <Skill />
-                <Skill />
-                <Skill />
-                <Skill />
-                <Skill />
-                <Skill />
             </div>
         </motion.div>
     )

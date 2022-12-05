@@ -25,13 +25,14 @@ function Skill({ directionLeft }: Props) {
     className='group relative flex cursor-pointer'>
         <div className='w-24 h-24 xl:w-32 xl:h-32 rounded-full object-cover filter group-hover:grayscale transition duration-300 ease-in-out'>
             <Image src={mongodb_icon} alt=""/>
+            <Image src={socketio} alt=""/>
         </div>
-
-        <div className='absolute opacity-0 group-hover:opacity-80 transition duration-300 ease-in-out group-hover:bg-pink-200 h-2/3 w-2/3 md:h-24 md:w-24 xl:w-31 xl:h-31 rounded-full z-0'>
+        
+        {/* <div className='absolute opacity-0 group-hover:opacity-80 transition duration-300 ease-in-out group-hover:bg-pink-200 h-2/3 w-2/3 md:h-24 md:w-24 xl:w-31 xl:h-31 rounded-full z-0'>
             <div className='flex items-center justify-center h-full'>
                 <p className='text-2xl'>💗</p>
             </div>
-        </div>
+        </div> */}
 
     </motion.div>
   )
